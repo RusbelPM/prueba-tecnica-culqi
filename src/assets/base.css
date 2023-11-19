@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  /* color: var(--color-text); */
+  /* background: var(--color-background); */
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+}
+@media screen and (max-width: 600px) {
+  .font-semibold {
+    position: fixed;
+    margin-top: 33rem !important;
+    width: 20%;
+  }
+  .font-semibold {
+    z-index: 1;
+    width: 40% !important;
+  }
+  .h-auto {
+    display: none;
+  }
+  .w-\[480px\] {
+    width: initial;
+  }
+  .grid-cols-2 {
+    grid-template-columns: initial;
+  }
+
+  .pt-12 {
+    padding-top: 1rem;
+  }
+  .leading-12 {
+    line-height: 3rem;
+  }
+  .text-5xl {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .leading-6 {
+    display: none;
+  }
+}
+.w-9\/12 {
+  width: 100%;
+}
+.h-auto .mt-8 {
+  position: fixed;
+  margin-top: 33rem !important;
+  width: 20%;
+}
+
+.bg-blue-900 {
+  background: #111827;
+}
+.bg-blue-900:hover {
+  background: #111827ee;
+}
