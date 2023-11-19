@@ -1,6 +1,7 @@
 # Culqi App - Rosvit
 
 Prueba técnica
+Aplicación desplegada a Vercel Url:https://prueba-tecnica-culqi.vercel.app/
 
 ## Tecnologias  Usadas
 
